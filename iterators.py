@@ -30,8 +30,8 @@ class FiboIter():
             raise StopIteration
 
 if __name__ == "__main__":
-    
-    fibonacci = FiboIter(10)
+    max = int(input("Ingrese numero maximo: "))
+    fibonacci = FiboIter(max)
     for element in fibonacci:
         print(element)
         time.sleep(1)
